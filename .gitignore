@@ -1,0 +1,11 @@
+# dependencies
+/node_modules
+
+# production
+/dist
+
+# umi
+.umi
+.umi-production
+
+# For more information you can visit [https://git-scm.com/docs/gitignore](https://git-scm.com/docs/gitignore)
