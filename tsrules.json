@@ -9,6 +9,7 @@
       "src/**/*.{ts,tsx}"
     ]
   },
+  
   "rules": {
     "object-literal-sort-keys": false,
     "jsx-no-lambda": false,
