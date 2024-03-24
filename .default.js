@@ -8,6 +8,7 @@ export default {
       }
     ]
   ],
+
   theme: {
     "primary-color": "#0aa679"
   },
