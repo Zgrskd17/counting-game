@@ -9,6 +9,7 @@
       "requires": {
         "tinycolor2": "^1.4.1"
       }
+      
     },
     "@ant-design/create-react-context": {
       "version": "0.2.5",
