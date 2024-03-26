@@ -1,30 +1,28 @@
 {
   "compilerOptions": {
-    "strict": true,
-    "moduleResolution": "node",
+    "module": "esnext",
+    "target": "es2020",
+    "lib": ["dom", "esnext"],
     "allowSyntheticDefaultImports": true,
     "esModuleInterop": true,
     "experimentalDecorators": true,
+    "forceConsistentCasingInFileNames": true,
     "jsx": "react",
-    "noUnusedParameters": true,
-    "noUnusedLocals": true,
-    "target": "es2020",
-    "lib": ["dom", "esnext"],
+    "moduleResolution": "node",
     "baseUrl": "./",
     "paths": {
       "*": ["src/types/*"]
     },
-    "skipLibCheck": true,
-    "forceConsistentCasingInFileNames": true
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "skipLibCheck": true
   },
-  
-  "include": ["src/**/*"],
-  
+  "include": [
+    "src/**/*"
+  ],
   "exclude": [
     "node_modules",
     "**/*.spec.ts"
-  ],
-
-  "module": "esnext"
-  
+  ]
 }
