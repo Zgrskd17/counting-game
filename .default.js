@@ -1,21 +1,22 @@
+const basePath = "/react/react-count-game/";
+
 export default {
   plugins: [
     [
       "umi-plugin-react",
       {
         dva: true,
-        antd: true
-      }
-    ]
+        antd: true,
+      },
+    ],
   ],
-
   theme: {
-    "primary-color": "#0aa679"
+    "primary-color": "#0aa679",
   },
-  base: "/react/react-count-game/",
-  publicPath: "/react/react-count-game/",
+  base: basePath,
+  publicPath: basePath,
   routes: [
-    { path: "/", redirect: "/example", component: "./index.tsx" },
-    { path: "/example", component: "./example/page.tsx" }
-  ]
+    { path: "/", redirect: "/example" },
+    { path: "/example", component: "./example/page.tsx" },
+  ],
 };
